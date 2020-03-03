@@ -46,6 +46,6 @@ _Optional_
 ![pull request](repo.jpg "title")
 
 
-![pull request](repo.JPG "title")
+![repo](repo.JPG)
 
 ![repo.jpg](attachment:repo.jpg)
