@@ -39,6 +39,6 @@ _Optional_
 - [Jira Ticket](https://bechtel.atlassian.net/browse/xxxx-xxx)
 
 ## workflow diagram of pull request process
-![pull request process!](/images/repo.jpg.jpg "pull request process")
+![pull request process!](/krish1/images/repo.jpg.jpg "pull request process")
  
 
