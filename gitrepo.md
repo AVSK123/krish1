@@ -40,3 +40,6 @@ _Optional_
 
 ## workflow diagram of pull request process
 ![PULL REQUEST](https://github.com/AVSK123/krish1/blob/master/images/repo.jpg "PULLREQUEST")
+![pull request](/images/repo.jpg "title")
+
+![pull request](repo.jpg "title")
