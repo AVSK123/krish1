@@ -28,12 +28,12 @@ _Optional_
 
 - [Jira Ticket](https://bechtel.atlassian.net/browse/xxxx-xxx)
 
-*Once a pull request is created, it is open for discussion or modifications.
-*Sometimes conflicts occur after creating a pull request, and you must resolve these conflicts. 
-*Usually, the assigned person reviews the code, he reviews the code and give their feedback or discuss potential modifications to the code.
-*Any feedback or modifications are added in the form of comments near the code line.
-*The developer resolves comments and replies to the reviewer and closes resolve conversation.
-*This process continues until all comments are resolved.
-*Once all discussions are resolved, the code is merged to the branch that was selected when the pull request was created. 
+* Once a pull request is created, it is open for discussion or modifications.
+* Sometimes conflicts occur after creating a pull request, and you must resolve these conflicts. 
+* Usually, the assigned person reviews the code, he reviews the code and give their feedback or discuss potential modifications to the code.
+* Any feedback or modifications are added in the form of comments near the code line.
+* The developer resolves comments and replies to the reviewer and closes resolve conversation.
+* This process continues until all comments are resolved.
+* Once all discussions are resolved, the code is merged to the branch that was selected when the pull request was created. 
  
 
