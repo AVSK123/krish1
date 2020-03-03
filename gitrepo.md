@@ -1,4 +1,5 @@
 ## What is a pull request?
+
 A pull request is a development process that provides a platform for discussion and review of a completed feature. Its purpose is to notify team members that the feature has been completed and it is open for discussion or modifications. The discussion usually occurs to improve the quality of the code it is basically a code review process.
 ## Pull request process:
 * Once a pull request is created, it is open for discussion or modifications.
@@ -39,7 +40,12 @@ _Optional_
 - [Jira Ticket](https://bechtel.atlassian.net/browse/xxxx-xxx)
 
 ## workflow diagram of pull request process
-![PULL REQUEST](https://github.com/AVSK123/krish1/blob/master/images/repo.jpg "PULLREQUEST")
+![PULL REQUEST](https://github.com/AVSK123/krish1/blob/master/images/repo.jpg)
 ![pull request](/images/repo.jpg "title")
 
 ![pull request](repo.jpg "title")
+
+
+![pull request](repo.JPG "title")
+
+![repo.jpg](attachment:repo.jpg)
