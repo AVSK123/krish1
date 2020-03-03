@@ -39,5 +39,4 @@ _Optional_
 - [Jira Ticket](https://bechtel.atlassian.net/browse/xxxx-xxx)
 
 ## workflow diagram of pull request process
-
-[pull request](https://github.com/AVSK123/krish1/blob/master/images/repo.jpg)
+Format: ![PULL REQUEST](https://github.com/AVSK123/krish1/blob/master/images/repo.jpg)
