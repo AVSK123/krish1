@@ -9,7 +9,7 @@ A pull request is a development process that provides a platform for discussion 
 * This process continues until all comments are resolved.
 * Once all discussions are resolved, the code is merged to the branch that was selected when the pull request was created. 
 
-(___)
+______
 
 We have pull request template in .github location and it consists of 
 ## Objective
@@ -38,6 +38,7 @@ _Optional_
 
 - [Jira Ticket](https://bechtel.atlassian.net/browse/xxxx-xxx)
 
-
+## workflow diagram of pull request process
+![pull request process!](/images/repo.jpg.jpg "pull request process")
  
 
