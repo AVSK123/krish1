@@ -1,4 +1,4 @@
-## What is a pull request?
+## pull request:
 
 A pull request is a development process that provides a platform for discussion and review of a completed feature. Its purpose is to notify team members that the feature has been completed and it is open for discussion or modifications. The discussion usually occurs to improve the quality of the code it is basically a code review process.
 ## Pull request process:
@@ -42,3 +42,7 @@ _Optional_
 ## workflow diagram of pull request process
 ![PullRequest](https://user-images.githubusercontent.com/57322995/75951671-9e49c800-5ed2-11ea-8199-eed1b16200b2.png)
 
+-----------------------
+
+## About repositories
+A repository is like a folder for your project. Your project's repository contains all of your project's files and stores each file's revision history. You can also discuss and manage your project's work within the repository.
