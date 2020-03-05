@@ -4,7 +4,7 @@ A pull request is a development process that provides a platform for discussion 
 ## Pull request process:
 * Once a pull request is created, it is open for discussion or modifications.
 * Sometimes conflicts occur after creating a pull request, and you must resolve these conflicts. 
-* Usually, the assigned person reviews the code, he reviews the code and give their feedback or discuss potential modifications to the code.
+* Usually, the assigned person reviews the code, he reviews the code and give their feedback or discuss potential modifications to the code. Min 2 reviewers should be added as reviewers.
 * Any feedback or modifications are added in the form of comments near the code line.
 * The developer resolves comments and replies to the reviewer and closes resolve conversation.
 * This process continues until all comments are resolved.
@@ -40,12 +40,3 @@ _Optional_
 - [Jira Ticket](https://bechtel.atlassian.net/browse/xxxx-xxx)
 
 ## workflow diagram of pull request process
-![PULL REQUEST](https://github.com/AVSK123/krish1/blob/master/images/repo.jpg)
-![pull request](/images/repo.jpg "title")
-
-![pull request](repo.jpg "title")
-
-
-![repo](repo.JPG)
-
-![repo.jpg](attachment:repo.jpg)
