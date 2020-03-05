@@ -40,3 +40,5 @@ _Optional_
 - [Jira Ticket](https://bechtel.atlassian.net/browse/xxxx-xxx)
 
 ## workflow diagram of pull request process
+![PullRequest](https://user-images.githubusercontent.com/57322995/75951671-9e49c800-5ed2-11ea-8199-eed1b16200b2.png)
+
