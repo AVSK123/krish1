@@ -1,0 +1,91 @@
+kubectl setimagepullsecrets
+
+
+variables:
+  namespace: 'testdockerc63a'
+  dockerAuthSecretName: 'venkataksdockerauth'
+
+steps:
+- task: Kubernetes@1
+  displayName: 'kubectl set imagePullSecrets'
+  inputs:
+    kubernetesServiceEndpoint: 'venkat-aks - kubernetes'
+    namespace: '$(namespace)'
+    command: get
+    arguments: service
+    azureSubscriptionEndpointForSecrets: 'venkat-aks - Azure'
+    azureContainerRegistry: venkatacr.azurecr.io
+    secretName: '$(dockerAuthSecretName)'
+    versionSpec: 1.14.8
+
+
+===============
+variables:
+  appName: 'testdockerc63a'
+
+steps:
+- powershell: |
+   '# $(appName)/deployment.yaml
+   apiVersion: apps/v1
+   kind: Deployment
+   metadata:
+     name: $(appName)
+     labels:
+       app: $(appName)
+   spec:
+     replicas: 2
+     selector:
+       matchLabels:
+         app: $(appName)
+     template:
+       metadata:
+         labels:
+           app: $(appName)
+       spec:
+         containers:
+           - name: $(appName)
+             image: venkatacr.azurecr.io/venkataksb13d:$(Build.BuildId)
+             ports:
+               - name: http
+                 containerPort: 8080
+                 protocol: TCP
+   
+   ---
+   
+   # $(appName)/service.yaml
+   apiVersion: v1
+   kind: Service
+   metadata:
+     name: $(appName)
+     labels:
+       app: $(appName)
+   spec:
+     type: LoadBalancer
+     ports:
+       - port: 8080
+         targetPort: http
+         protocol: TCP
+         name: http
+     selector:
+       app: $(appName)' | Set-Content $(Agent.TempDirectory)/manifest.yaml
+  displayName: 'Generate Kubernetes Manifest file'
+==========
+kubernets manifest deploy
+
+variables:
+  namespace: 'testdockerc63a'
+  dockerAuthSecretName: 'venkataksdockerauth'
+
+steps:
+- task: KubernetesManifest@0
+  displayName: 'Kubernetes Manifest Deploy'
+  inputs:
+    kubernetesServiceConnection: 'venkat-aks - kubernetes'
+    namespace: '$(namespace)'
+    manifests: '$(Agent.TempDirectory)/manifest.yaml'
+    imagePullSecrets: '$(dockerAuthSecretName)'
+======================
+appName  testdockerc63a
+dockerAuthSecretName  venkataksdockerauth
+namespace   testdockerc63a
+
