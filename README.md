@@ -9,3 +9,5 @@ https://docs.microsoft.com/en-us/azure/devops/pipelines/tasks/deploy/helm-deploy
 
 
 https://github.com/Azure/kubernetes-hackfest/blob/master/labs/cicd-automation/azure-devops/README.md   -must
+
+https://github.com/microsoft/azure-pipelines-yaml/blob/master/templates/docker-container-to-aks.yml   acr to aks
